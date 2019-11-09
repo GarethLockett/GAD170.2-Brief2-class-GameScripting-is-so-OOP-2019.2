@@ -8,6 +8,8 @@ using UnityEngine;
     Description: The main game manager that instantiates heroes and monster characters into the battle.
                  Manages selecting random heroes and monsters to fight.
                  Declares a winner once either all the heroes or all the monsters are defeated.
+
+                 SOME CHANGE FOR GITHUB
 */
 
 public class BattleLogic : MonoBehaviour
