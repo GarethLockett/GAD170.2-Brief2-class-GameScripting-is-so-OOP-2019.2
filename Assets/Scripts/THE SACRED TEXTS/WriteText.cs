@@ -32,6 +32,7 @@ public class WriteText : MonoBehaviour
     public void OutputText( string text )
     {
         if( this.isWriting == true ){ return; }
+        if( string.IsNullOrEmpty( text ) == true ){ return; } // gFix: Stops error later on passing empty strings.
 
         this.ResetValues();
 
