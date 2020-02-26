@@ -768,7 +768,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1592561281}
-  - component: {fileID: 1592561280}
   - component: {fileID: 1592561282}
   m_Layer: 0
   m_Name: BattleManager
@@ -777,23 +776,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1592561280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592561279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6f9b0e984cb47749b6b34a49aaa5130, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  heroLibrary: []
-  monsterLibrary: []
-  heroSpawnPoints: []
-  monsterSpawnPoints: []
-  ouputLog: {fileID: 660778974}
 --- !u!4 &1592561281
 Transform:
   m_ObjectHideFlags: 0
