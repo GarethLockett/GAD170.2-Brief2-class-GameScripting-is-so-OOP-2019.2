@@ -7,7 +7,7 @@ public class CharacterStats : MonoBehaviour
     public int health;
     public int damage;
 
-    public void DoDamage( int damageAmount )
+    public void TakeDamage( int damageAmount )
     {
         this.health -= damageAmount;
 
